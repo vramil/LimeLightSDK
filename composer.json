@@ -1,24 +1,31 @@
 {
-	"name": "almeyda/limelight-sdk",
-	"description": "SDK for PHP integration with True Marketing Partner's Lime Light API",
-	"keywords": [
-		"limelight api"
-	],
-	"license": "APACHE 2.0",
-	"authors": [{
-			"name": "Dmitriy Evdokimov, Ramil Vildanov",
-			"email": "dmitriy@almeydahost.com",
-			"homepage": "http://almeydahost.com",
-			"role": "Developer"
-		}
-	],
-	"minimum-stability": "dev",
-	"require": {
-		"php": ">=5.5.0"
-	},
-	"autoload": {
-		"psr-4": {
-			"almeyda\\limelight-sdk\\": ""
-		}
-	}
+    "name": "almeyda/limelight-sdk",
+    "description": "SDK for PHP integration with True Marketing Partner's Lime Light API",
+    "keywords": [
+        "limelight apisdk"
+    ],
+    "license": "APACHE 2.0",
+    "authors": [
+        {
+            "name": "Dmitriy Evdokimov",
+            "email": "dmitriy@almeydahost.com",
+            "homepage": "http://almeydahost.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Ramil Vildanov",
+            "email": "ramil@almeydahost.com",
+            "homepage": "http://almeydahost.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "almeyda\\limelightsdk\\": ""
+        }
+    }
 }
